@@ -6,8 +6,7 @@ This is a modern personal portfolio website for Nitesh Gupta, designed to showca
 
 ## Live Demo
 
-- [View Portfolio on Inversal](YOUR_INVERSAL_LINK_HERE)
-- [View Source on GitHub](YOUR_GITHUB_LINK_HERE)
+- [View Portfolio](YOUR_INVERSAL_LINK_HERE)
 
 ## Features
 
