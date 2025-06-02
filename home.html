@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitesh Gupta - Designer + Illustrator</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background pattern -->
+    <div class="background-pattern"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo"><a href="#home" style="text-decoration: none;color: #fff;">NG</a></div>
+        <button class="theme-toggle" id="themeToggle">
+            <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Left Navigation -->
+    <nav class="left-nav">
+        <div class="nav-item active"><a href="#project" style="text-decoration: none;color: #fff;">Projects</a></div>
+        <div class="nav-item"><a href="#about" style="text-decoration: none;color: #fff;">About</a></div>
+        <div class="nav-item"><a href="#skills" style="text-decoration: none;color: #fff;">Skills</a></div>
+        <div class="nav-item"><a href="#contact" style="text-decoration: none;color: #fff;">Contact</a></div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="home" class="main-content">
+        <div class="content-wrapper">
+            <div class="subtitle">NITESH GUPTA</div>
+            
+            <div class="title-section">
+                <div class="title-line">
+                    <h1 class="main-title">Designer</h1>
+                    <div class="accent-line"></div>
+                </div>
+                
+                <div class="subtitle-line">
+                    <span class="plus-sign">+</span>
+                    <h2 class="sub-title">Developer</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bottom Left Social Icons -->
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/nitt06" target="_blank" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,255.99704,255.99704">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM17,20v19h-6v-19zM11,14.47c0,-1.4 1.2,-2.47 3,-2.47c1.8,0 2.93,1.07 3,2.47c0,1.4 -1.12,2.53 -3,2.53c-1.8,0 -3,-1.13 -3,-2.53zM39,39h-6c0,0 0,-9.26 0,-10c0,-2 -1,-4 -3.5,-4.04h-0.08c-2.42,0 -3.42,2.06 -3.42,4.04c0,0.91 0,10 0,10h-6v-19h6v2.56c0,0 1.93,-2.56 5.81,-2.56c3.97,0 7.19,2.73 7.19,8.26z"></path></g></g>
+            </svg>
+        </a>
+        <a href="https://github.com/Nitt06" target="_blank" class="social-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+        </a>
+        <a href="#" class="social-icon">
+            
+        </a>
+    </div>
+    <!-- project section 
+     project 1 -->
+    <section id="project" class="projects-main">
+        <div class="project-content">
+            <div class="project-number">
+                <div class="accent-line-short"></div>
+                <span class="number">01</span>
+            </div>
+            
+            <div class="project-info">
+                <h1 class="project-title">Zenvibe<br>React Web App</h1>
+                <p class="project-description">
+                    Zenvibe is an interactive web app where users select their mood, receive a motivational quote (via a quote API) and a related GIF (via a GIF API), and get a direct Spotify playlist link to match their feelings.<br>
+                    Built with React for a smooth user experience and easy mood-based music discovery.
+                </p>
+                <button class="view-project-btn" onclick="window.open('https://zen-vibe-nitt06s-projects.vercel.app/', '_blank')">
+                    View project
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+            <div class="mockup-container">
+                <!-- Optionally add a screenshot of Zenvibe here -->
+                <img src="project1.png" alt="Zenvibe app mockup" class="project-mockup">
+            </div>
+        <div class="korean-text">프로젝트 01</div>
+        <br>
+         <!-- Project 2 -->
+        <div class="project-info">
+            <div class="project-number">
+                <div class="accent-line-short"></div>
+                <span class="number">02</span>
+            </div>
+            <h1 class="project-title">AI Chatbot<br>React Web App</h1>
+            <p class="project-description">
+                This AI Chatbot is a smart web application built with React that allows users to interact in real-time with an AI assistant.<br>
+                It can answer questions, provide suggestions, and hold natural conversations, making it a helpful tool for productivity and learning.<br>
+                <strong>Note:</strong> This is a basic chatbot and does not have memory or advanced context retention features.
+            </p>
+            <button class="view-project-btn" onclick="window.open('https://github.com/Nitt06/chatbot', '_blank')">
+                View project
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+            <div class="mockup-container">
+                <img src="project2.png" alt="Chatbot" class="project-mockup">
+            </div>
+    </div>
+    <div class="korean-text">프로젝트 02</div>
+    <br>
+    </section>
+    <section id="about" class="about-section">
+        <div class="about-wrapper">
+            <div class="about-content">
+                <h1 class="about-title">About Me</h1>
+                <p>
+                    Hi, I'm Nitesh Gupta, a student at <a href="https://adamasuniversity.ac.in/" style="text-decoration: none; color:#ccc;">Adams University</a> and a passionate designer and developer dedicated to crafting 
+                    visually stunning and user-friendly digital experiences. With a strong background 
+                    in design and a love for coding, I bridge the gap between creativity and technology.
+                </p>
+                <p>
+                    My journey has been fueled by curiosity and a drive to solve complex problems 
+                    through innovative solutions. Whether it's designing intuitive interfaces or 
+                    building robust web applications, I strive to make a meaningful impact.
+                </p>
+                <p>
+                    Let's create something amazing together!
+                </p>
+            </div>
+            <div class="korean-text-vertical">
+                <span>자기소개</span> <!-- Korean for "About" -->
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills-section">
+        <div class="skills-wrapper">
+            <div class="skills-title">
+                <h1>Skills/보유 기술</h1>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-description="Proficient in Python, JavaScript, and C++ for various applications.">
+                            Programming Languages
+                        </div>
+                        <div class="skill-card" data-description="Experienced in building responsive websites using HTML, CSS, React, and Node.js.">
+                            Web Development
+                        </div>
+                        <div class="skill-card" data-description="Skilled in managing databases like MySQL and MongoDB.">
+                            Database Management
+                        </div>
+                        <div class="skill-card" data-description="Proficient in version control systems like Git and GitHub.">
+                            Version Control
+                        </div>
+                        <div class="skill-card" data-description="Strong understanding of data structures and algorithms.">
+                            Data Structures & Algorithms
+                        </div>
+                        <div class="skill-card" data-description="Basic knowledge of machine learning concepts and tools.">
+                            Machine Learning Basics
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-description="Confident in delivering impactful presentations and speeches.">
+                            Public Speaking
+                        </div>
+                        <div class="skill-card" data-description="Effective collaboration with team members to achieve goals.">
+                            Team Collaboration
+                        </div>
+                        <div class="skill-card" data-description="Skilled in writing clear and concise technical documentation.">
+                            Technical Writing
+                        </div>
+                        <div class="skill-card" data-description="Strong problem-solving skills to tackle challenges effectively.">
+                            Problem-Solving
+                        </div>
+                        <div class="skill-card" data-description="Active listener with the ability to understand and respond effectively.">
+                            Active Listening
+                        </div>
+                        <div class="skill-card" data-description="Experienced in creating engaging and professional presentations.">
+                            Presentation Skills
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="contact-wrapper">
+            <div class="contact-title">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="contact-content">
+                <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+                <form class="contact-form" action="https://formspree.io/f/mgvyevnj"
+                method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Bottom Center Scroll Indicator -->
+    <div class="scroll-indicator">
+        <div class="scroll-dot"></div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Nitesh Gupta. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="home.js"></script>
+</body>
+</html>
