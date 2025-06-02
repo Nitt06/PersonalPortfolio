@@ -6,7 +6,7 @@ This is a modern personal portfolio website for Nitesh Gupta, designed to showca
 
 ## Live Demo
 
-- [View Portfolio](YOUR_INVERSAL_LINK_HERE)
+- [View Portfolio](https://niteshportfolio1.netlify.app/)
 
 ## Features
 
